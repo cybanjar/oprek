@@ -18,7 +18,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 mx-auto">
-                    <h2 class="text-center">Infinite scroll Pagination</h2>
+                    <h2 class="text-center">Infinite scroll pagination</h2>
                 </div>
                 <div class="col-md-12" id="post-data">
                     @include('data')
@@ -28,7 +28,7 @@
     </section>
 
     <div class="ajax-load text-center" style="display: none;">
-        <p> <img src="{{asset('images/200.gif')}}" />Loading more posting </p>
+        <p> <img src="{{asset('images/200.gif')}}" />Loading more...</p>
     </div>
 
     <script>
